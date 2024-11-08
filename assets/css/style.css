@@ -133,7 +133,6 @@ h6 {
   background-color: #009961;
 }
 
-
 .sosmed-container .btn-wa i,
 .sosmed-container .btn-trigger-sosmed i {
   font-size: x-large;
@@ -149,38 +148,36 @@ h6 {
 
 .btn-wa-active {
   bottom: 6rem !important;
-  
 }
 
 .btn-x-active {
   bottom: 10rem !important;
 }
 
-.btn-sosmed.btn-x{
-  background: linear-gradient(to bottom, #28282B 5%, #000 100%);
-  
+.btn-sosmed.btn-x {
+  background: linear-gradient(to bottom, #28282b 5%, #000 100%);
 }
 
 .btn-linkedin-active {
   bottom: 14rem !important;
 }
 
-.btn-sosmed.btn-linkedin{
-  background: linear-gradient(to bottom, #0E76A8 5%, #1B4F8F 100%);
+.btn-sosmed.btn-linkedin {
+  background: linear-gradient(to bottom, #0e76a8 5%, #1b4f8f 100%);
 }
 
 .btn-ig-active {
   bottom: 18rem !important;
 }
-.btn-sosmed.btn-ig{
-  background: linear-gradient(to bottom, #8134AF 20%, #DD2A7B 100%);
+.btn-sosmed.btn-ig {
+  background: linear-gradient(to bottom, #8134af 20%, #dd2a7b 100%);
 }
 
 .btn-tiktok-active {
   bottom: 22rem !important;
 }
-.btn-sosmed.btn-tiktok{
-  background: linear-gradient(to bottom, #010101 5%, #28282B 100%);
+.btn-sosmed.btn-tiktok {
+  background: linear-gradient(to bottom, #010101 5%, #28282b 100%);
 }
 /* SOSMED END */
 
@@ -2348,7 +2345,7 @@ section {
   /*  background: #0a0a0a;*/
   /*  background: #011548;*/
   background: #0b2b6a;
-  margin-bottom : -30px;
+  margin-bottom: -30px;
 }
 
 #footer .footer-top {
@@ -2589,4 +2586,73 @@ section {
   -moz-box-shadow: 0px 0px 4px 2px rgba(114, 4, 207, 0.75);
 }
 
+.footerSubBtn {
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  transform: 0.3;
+  font-weight: 600;
+  font-size: 15px;
+}
 
+/* Baru. Button Template*/
+.blue-dialogika-btn {
+  padding: 8px 25px;
+  color: #fff;
+  display: inline-block;
+  background: linear-gradient(to bottom, #0f61a8 5%, #0b2b6a 100%);
+  box-shadow: 0px 5px 16px -6px rgba(114, 4, 207, 1);
+  -webkit-box-shadow: 0px 5px 16px -6px rgba(114, 4, 207, 1);
+  white-space: nowrap;
+  border-radius: 50px;
+  -webkit-border-radius: 50px;
+  -moz-border-radius: 50px;
+  -ms-border-radius: 50px;
+  -o-border-radius: 50px;
+  transition: 0.3s;
+  -webkit-transition: 0.3s;
+  -moz-transition: 0.3s;
+  -ms-transition: 0.3s;
+  -o-transition: 0.3s;
+  border: none;
+}
+
+.blue-dialogika-btn:hover {
+  background-color: #0b2b6a;
+  background: linear-gradient(to bottom, #0b2b6a 5%, #0f61a8 100%);
+  cursor: pointer;
+  box-shadow: 0px 0px 4px 2px rgba(114, 4, 207, 0.75);
+  -webkit-box-shadow: 0px 0px 4px 2px rgba(114, 4, 207, 0.75);
+}
+
+.yellow-dialogika-btn {
+  padding: 8px 25px;
+  color: black;
+  display: inline-block;
+  background: linear-gradient(to top, #f1ac15 22%, #fcf221 100%);
+  box-shadow: 0 4px 10px rgba(241, 172, 21, 0.4),
+    0 6px 20px rgba(252, 242, 33, 0.3);
+  -webkit-box-shadow: 0 4px 10px rgba(241, 172, 21, 0.4),
+    0 6px 20px rgba(252, 242, 33, 0.3);
+  white-space: nowrap;
+  border-radius: 50px;
+  -webkit-border-radius: 50px;
+  -moz-border-radius: 50px;
+  -ms-border-radius: 50px;
+  -o-border-radius: 50px;
+  transition: 0.3s;
+  -webkit-transition: 0.3s;
+  -moz-transition: 0.3s;
+  -ms-transition: 0.3s;
+  -o-transition: 0.3s;
+  border: none;
+}
+
+.yellow-dialogika-btn:hover {
+  background-color: #0b2b6a;
+  background: linear-gradient(to bottom, #f1ac15 22%, #fcf221 100%);
+  cursor: pointer;
+  box-shadow: 0px 0px 10px 2px #fcf221;
+  -webkit-box-shadow: 0px 0px 10px 2px #fcf221;
+}
